@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+nav ul{
+    /* So ul will be in a row , not in a column*/
+    display: flex;
+
+    /* We remove bullets*/
+    list-style: none;
+
+    /*we move our to ul to the left corner*/
+    padding: 0;
+
+    /* Space between our ul*/
+    gap: 10px;
+}
+
+/* Background color of our naviagtion*/
+nav 
+{
+    background-color: black;
+/*space inside vanigation*/
+    padding: 20px;
+
+
+}
+
+/**/
+
+nav a
+{   
+/*our links become a box*/
+    display: block;
+
+    font-size: 20px;
+    color: ghostwhite;
+    text-decoration: none;
+
+/*Space inside each link*/
+    padding: 5px;
+}
+nav a:hover
+{
+/*navigation links adjustment*/
+    background-color: grey;
+}
+
+
+
+main
+{
+    max-width: 1000px;
+
+/*space outside element*/
+    margin: 0 auto;
+
+/*space inside element*/
+    padding: 20px;
+}
+
+
+/*heading adjustment*/
+h1
+{
+    font-size: 28px;    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*paragraph adjustment*/
+p
+{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6; 
+    text-align: center;
+     
+}
+
+/*responsiveimage */
+img
+{
+    width: 500px;
+    max-width: 100%;
+   
+    
+    /*the height is set to auto to avoid stretching*/
+    height: auto;
+}
+
+/**/
+/*media query for screens up to 600px*/
+@media(max-width:600px)
+{
+    nav ul
+    {
+        gap: 1px;
+    }
+    nav a
+    {
+        font-size: 16px;
+    }
+}
+section
+{
+    
+}
